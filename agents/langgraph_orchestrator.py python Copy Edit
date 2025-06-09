@@ -1,0 +1,10 @@
+# agents/langgraph_orchestrator.py
+
+def run_agent_task(task):
+    # Simulate LangGraph agent output
+    if task == "pending_pos":
+        return "You have 5 pending POs."
+    elif task == "latest_po":
+        return "The latest PO was raised on 2025-05-25 for Vendor ABC."
+    else:
+        return "Unknown task. Agent could not resolve it."
